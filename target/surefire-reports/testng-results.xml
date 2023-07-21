@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="15" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T15:48:56 IST" name="Parallel test suite" finished-at="2023-07-21T15:49:16 IST" duration-ms="19109">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T15:48:56 IST" name="Test" finished-at="2023-07-21T15:49:16 IST" duration-ms="19109">
+      <class name="testcases.HomePageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.HomePageTest@683dbc2c]" started-at="2023-07-21T15:48:52 IST" name="beforeSuite" finished-at="2023-07-21T15:48:56 IST" duration-ms="4520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testcases.HomePageTest@683dbc2c]" started-at="2023-07-21T15:48:56 IST" name="createObject" finished-at="2023-07-21T15:48:57 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="openHomePageValidation()[pri:1, instance:testcases.HomePageTest@683dbc2c]" started-at="2023-07-21T15:48:57 IST" name="openHomePageValidation" finished-at="2023-07-21T15:49:10 IST" duration-ms="13083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePageValidation -->
+        <test-method signature="scrollPageValidation()[pri:2, instance:testcases.HomePageTest@683dbc2c]" started-at="2023-07-21T15:49:10 IST" name="scrollPageValidation" finished-at="2023-07-21T15:49:10 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollPageValidation -->
+        <test-method signature="contactLinkValidation()[pri:3, instance:testcases.HomePageTest@683dbc2c]" started-at="2023-07-21T15:49:10 IST" name="contactLinkValidation" finished-at="2023-07-21T15:49:12 IST" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactLinkValidation -->
+        <test-method signature="contactLinkTextValidation()[pri:4, instance:testcases.HomePageTest@683dbc2c]" started-at="2023-07-21T15:49:12 IST" name="contactLinkTextValidation" finished-at="2023-07-21T15:49:12 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactLinkTextValidation -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.LetsGetStartedPageTest">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:12 IST" name="createObject" finished-at="2023-07-21T15:49:12 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="openHomePageValidation()[pri:1, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:12 IST" name="openHomePageValidation" finished-at="2023-07-21T15:49:14 IST" duration-ms="1645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePageValidation -->
+        <test-method signature="headLineValidation()[pri:2, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:14 IST" name="headLineValidation" finished-at="2023-07-21T15:49:14 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headLineValidation -->
+        <test-method signature="subHeadLineValidation()[pri:3, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:14 IST" name="subHeadLineValidation" finished-at="2023-07-21T15:49:14 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subHeadLineValidation -->
+        <test-method signature="enterCompanyNameValidation()[pri:4, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:14 IST" name="enterCompanyNameValidation" finished-at="2023-07-21T15:49:14 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCompanyNameValidation -->
+        <test-method signature="enterNameValidation()[pri:5, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:14 IST" name="enterNameValidation" finished-at="2023-07-21T15:49:14 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterNameValidation -->
+        <test-method signature="enterEmailValidation()[pri:6, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:14 IST" name="enterEmailValidation" finished-at="2023-07-21T15:49:14 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmailValidation -->
+        <test-method signature="selectDiscussionValidation()[pri:7, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:14 IST" name="selectDiscussionValidation" finished-at="2023-07-21T15:49:15 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDiscussionValidation -->
+        <test-method signature="somethingElseLabelValidation()[pri:8, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:15 IST" name="somethingElseLabelValidation" finished-at="2023-07-21T15:49:15 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- somethingElseLabelValidation -->
+        <test-method signature="textboxSomethingElseValidation()[pri:9, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:15 IST" name="textboxSomethingElseValidation" finished-at="2023-07-21T15:49:15 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textboxSomethingElseValidation -->
+        <test-method signature="submitButtonValidation()[pri:10, instance:testcases.LetsGetStartedPageTest@a1cdc6d]" started-at="2023-07-21T15:49:15 IST" name="submitButtonValidation" finished-at="2023-07-21T15:49:16 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitButtonValidation -->
+      </class> <!-- testcases.LetsGetStartedPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>
